@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T20:07:59 EST" name="Default suite" finished-at="2024-01-14T20:11:27 EST" duration-ms="208255">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T20:07:59 EST" name="Default test" finished-at="2024-01-14T20:11:27 EST" duration-ms="208255">
+      <class name="com.excelRProjects.SwagLabs.TestCaseExecution">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:07:59 EST" name="initialisation" finished-at="2024-01-14T20:08:02 EST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method signature="validateAllValidCredentials()[pri:1, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:02 EST" name="validateAllValidCredentials" finished-at="2024-01-14T20:08:15 EST" duration-ms="13506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllValidCredentials -->
+        <test-method signature="validateInvalidUserName()[pri:2, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:15 EST" name="validateInvalidUserName" finished-at="2024-01-14T20:08:16 EST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidUserName -->
+        <test-method signature="validateInvalidPassword()[pri:3, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:16 EST" name="validateInvalidPassword" finished-at="2024-01-14T20:08:16 EST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidPassword -->
+        <test-method signature="validateBlankCredentials()[pri:4, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:16 EST" name="validateBlankCredentials" finished-at="2024-01-14T20:08:17 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlankCredentials -->
+        <test-method signature="validateValidLogin()[pri:5, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:17 EST" name="validateValidLogin" finished-at="2024-01-14T20:08:17 EST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidLogin -->
+        <test-method signature="validateAllProductsDisplay()[pri:6, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:17 EST" name="validateAllProductsDisplay" finished-at="2024-01-14T20:08:18 EST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllProductsDisplay -->
+        <test-method signature="validateProductByNameFilterZtoA()[pri:7, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:18 EST" name="validateProductByNameFilterZtoA" finished-at="2024-01-14T20:08:22 EST" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductByNameFilterZtoA -->
+        <test-method signature="validateProductByNameFilterAtoZ()[pri:8, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:22 EST" name="validateProductByNameFilterAtoZ" finished-at="2024-01-14T20:08:26 EST" duration-ms="4594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductByNameFilterAtoZ -->
+        <test-method signature="validateProductFilterByPriceLowtoHigh()[pri:9, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:26 EST" name="validateProductFilterByPriceLowtoHigh" finished-at="2024-01-14T20:08:29 EST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductFilterByPriceLowtoHigh -->
+        <test-method signature="validateProductFilterByPriceHightoLow()[pri:10, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:29 EST" name="validateProductFilterByPriceHightoLow" finished-at="2024-01-14T20:08:31 EST" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductFilterByPriceHightoLow -->
+        <test-method signature="validateSocialMediaButtons()[pri:11, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:31 EST" name="validateSocialMediaButtons" finished-at="2024-01-14T20:08:39 EST" duration-ms="7446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSocialMediaButtons -->
+        <test-method signature="validateInventoryPageProduct()[pri:12, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:39 EST" name="validateInventoryPageProduct" finished-at="2024-01-14T20:08:39 EST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInventoryPageProduct -->
+        <test-method signature="validateaddAllProductsToCart()[pri:13, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:39 EST" name="validateaddAllProductsToCart" finished-at="2024-01-14T20:08:40 EST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateaddAllProductsToCart -->
+        <test-method signature="validateremoveAllItemsFromCart()[pri:14, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:08:40 EST" name="validateremoveAllItemsFromCart" finished-at="2024-01-14T20:09:41 EST" duration-ms="60927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateremoveAllItemsFromCart -->
+        <test-method signature="validateAddandRemoveProductsInInventory()[pri:15, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:09:41 EST" name="validateAddandRemoveProductsInInventory" finished-at="2024-01-14T20:10:01 EST" duration-ms="20369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddandRemoveProductsInInventory -->
+        <test-method signature="validateFooterText()[pri:16, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:01 EST" name="validateFooterText" finished-at="2024-01-14T20:10:02 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterText -->
+        <test-method signature="validateResetAppStateFunction()[pri:17, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:02 EST" name="validateResetAppStateFunction" finished-at="2024-01-14T20:10:33 EST" duration-ms="31303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResetAppStateFunction -->
+        <test-method signature="validateCartPageCheckOutButton()[pri:18, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:33 EST" name="validateCartPageCheckOutButton" finished-at="2024-01-14T20:10:55 EST" duration-ms="21623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartPageCheckOutButton -->
+        <test-method signature="validateCkeckoutPage1ContinueButtonAndAllItemsFunction()[pri:19, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:55 EST" name="validateCkeckoutPage1ContinueButtonAndAllItemsFunction" finished-at="2024-01-14T20:10:56 EST" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCkeckoutPage1ContinueButtonAndAllItemsFunction -->
+        <test-method signature="validateCkeckoutPage1ErrorMsgsText()[pri:20, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:56 EST" name="validateCkeckoutPage1ErrorMsgsText" finished-at="2024-01-14T20:10:59 EST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCkeckoutPage1ErrorMsgsText -->
+        <test-method signature="validateCheckoutPage2FinishButton()[pri:21, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:10:59 EST" name="validateCheckoutPage2FinishButton" finished-at="2024-01-14T20:11:00 EST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage2FinishButton -->
+        <test-method signature="validateCheckoutPage2CancelButton()[pri:22, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:11:00 EST" name="validateCheckoutPage2CancelButton" finished-at="2024-01-14T20:11:24 EST" duration-ms="24408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage2CancelButton -->
+        <test-method signature="validateCheckoutcompletePage()[pri:23, instance:com.excelRProjects.SwagLabs.TestCaseExecution@1a942c18]" started-at="2024-01-14T20:11:24 EST" name="validateCheckoutcompletePage" finished-at="2024-01-14T20:11:27 EST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutcompletePage -->
+      </class> <!-- com.excelRProjects.SwagLabs.TestCaseExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

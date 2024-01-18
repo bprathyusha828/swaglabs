@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\bprat\AppData\Local\Temp\testng-eclipse--254155245\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateAddandRemoveProductsInInventory">validateAddandRemoveProductsInInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateAllProductsDisplay">validateAllProductsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateAllValidCredentials">validateAllValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateBlankCredentials">validateBlankCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCartPageCheckOutButton">validateCartPageCheckOutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCheckoutPage2CancelButton">validateCheckoutPage2CancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCheckoutPage2FinishButton">validateCheckoutPage2FinishButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCheckoutcompletePage">validateCheckoutcompletePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCkeckoutPage1ContinueButtonAndAllItemsFunction">validateCkeckoutPage1ContinueButtonAndAllItemsFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateCkeckoutPage1ErrorMsgsText">validateCkeckoutPage1ErrorMsgsText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateFooterText">validateFooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateInvalidPassword">validateInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateInvalidUserName">validateInvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateInventoryPageProduct">validateInventoryPageProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateProductByNameFilterAtoZ">validateProductByNameFilterAtoZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateProductByNameFilterZtoA">validateProductByNameFilterZtoA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateProductFilterByPriceHightoLow">validateProductFilterByPriceHightoLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateProductFilterByPriceLowtoHigh">validateProductFilterByPriceLowtoHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateResetAppStateFunction">validateResetAppStateFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateSocialMediaButtons">validateSocialMediaButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateValidLogin">validateValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateaddAllProductsToCart">validateaddAllProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.excelRProjects.SwagLabs.TestCaseExecution" class="method navigator-link" hash-for-method="validateremoveAllItemsFromCart">validateremoveAllItemsFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.excelRProjects.SwagLabs.TestCaseExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddandRemoveProductsInInventory">
+                  </a> <!-- validateAddandRemoveProductsInInventory -->
+                  <span class="method-name">validateAddandRemoveProductsInInventory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAllProductsDisplay">
+                  </a> <!-- validateAllProductsDisplay -->
+                  <span class="method-name">validateAllProductsDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAllValidCredentials">
+                  </a> <!-- validateAllValidCredentials -->
+                  <span class="method-name">validateAllValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBlankCredentials">
+                  </a> <!-- validateBlankCredentials -->
+                  <span class="method-name">validateBlankCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCartPageCheckOutButton">
+                  </a> <!-- validateCartPageCheckOutButton -->
+                  <span class="method-name">validateCartPageCheckOutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutPage2CancelButton">
+                  </a> <!-- validateCheckoutPage2CancelButton -->
+                  <span class="method-name">validateCheckoutPage2CancelButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutPage2FinishButton">
+                  </a> <!-- validateCheckoutPage2FinishButton -->
+                  <span class="method-name">validateCheckoutPage2FinishButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutcompletePage">
+                  </a> <!-- validateCheckoutcompletePage -->
+                  <span class="method-name">validateCheckoutcompletePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCkeckoutPage1ContinueButtonAndAllItemsFunction">
+                  </a> <!-- validateCkeckoutPage1ContinueButtonAndAllItemsFunction -->
+                  <span class="method-name">validateCkeckoutPage1ContinueButtonAndAllItemsFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCkeckoutPage1ErrorMsgsText">
+                  </a> <!-- validateCkeckoutPage1ErrorMsgsText -->
+                  <span class="method-name">validateCkeckoutPage1ErrorMsgsText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFooterText">
+                  </a> <!-- validateFooterText -->
+                  <span class="method-name">validateFooterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvalidPassword">
+                  </a> <!-- validateInvalidPassword -->
+                  <span class="method-name">validateInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvalidUserName">
+                  </a> <!-- validateInvalidUserName -->
+                  <span class="method-name">validateInvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInventoryPageProduct">
+                  </a> <!-- validateInventoryPageProduct -->
+                  <span class="method-name">validateInventoryPageProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductByNameFilterAtoZ">
+                  </a> <!-- validateProductByNameFilterAtoZ -->
+                  <span class="method-name">validateProductByNameFilterAtoZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductByNameFilterZtoA">
+                  </a> <!-- validateProductByNameFilterZtoA -->
+                  <span class="method-name">validateProductByNameFilterZtoA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductFilterByPriceHightoLow">
+                  </a> <!-- validateProductFilterByPriceHightoLow -->
+                  <span class="method-name">validateProductFilterByPriceHightoLow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductFilterByPriceLowtoHigh">
+                  </a> <!-- validateProductFilterByPriceLowtoHigh -->
+                  <span class="method-name">validateProductFilterByPriceLowtoHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResetAppStateFunction">
+                  </a> <!-- validateResetAppStateFunction -->
+                  <span class="method-name">validateResetAppStateFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSocialMediaButtons">
+                  </a> <!-- validateSocialMediaButtons -->
+                  <span class="method-name">validateSocialMediaButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateValidLogin">
+                  </a> <!-- validateValidLogin -->
+                  <span class="method-name">validateValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateaddAllProductsToCart">
+                  </a> <!-- validateaddAllProductsToCart -->
+                  <span class="method-name">validateaddAllProductsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateremoveAllItemsFromCart">
+                  </a> <!-- validateremoveAllItemsFromCart -->
+                  <span class="method-name">validateremoveAllItemsFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bprat\AppData\Local\Temp\testng-eclipse--254155245\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.excelRProjects.SwagLabs.TestCaseExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateremoveAllItemsFromCart')
+data.setCell(0, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(0, 3, 60927);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateResetAppStateFunction')
+data.setCell(1, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(1, 3, 31303);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateCheckoutPage2CancelButton')
+data.setCell(2, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(2, 3, 24408);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateCartPageCheckOutButton')
+data.setCell(3, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(3, 3, 21623);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateAddandRemoveProductsInInventory')
+data.setCell(4, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(4, 3, 20369);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateAllValidCredentials')
+data.setCell(5, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(5, 3, 13506);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateSocialMediaButtons')
+data.setCell(6, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(6, 3, 7446);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateProductByNameFilterAtoZ')
+data.setCell(7, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(7, 3, 4594);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateProductByNameFilterZtoA')
+data.setCell(8, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(8, 3, 4053);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateProductFilterByPriceHightoLow')
+data.setCell(9, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(9, 3, 2597);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateCkeckoutPage1ErrorMsgsText')
+data.setCell(10, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(10, 3, 2413);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateCheckoutcompletePage')
+data.setCell(11, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(11, 3, 2401);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateProductFilterByPriceLowtoHigh')
+data.setCell(12, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(12, 3, 2357);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateCkeckoutPage1ContinueButtonAndAllItemsFunction')
+data.setCell(13, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(13, 3, 1840);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateCheckoutPage2FinishButton')
+data.setCell(14, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(14, 3, 1176);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateaddAllProductsToCart')
+data.setCell(15, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(15, 3, 893);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateInvalidUserName')
+data.setCell(16, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(16, 3, 670);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateValidLogin')
+data.setCell(17, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(17, 3, 551);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateAllProductsDisplay')
+data.setCell(18, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(18, 3, 539);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateInvalidPassword')
+data.setCell(19, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(19, 3, 509);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateInventoryPageProduct')
+data.setCell(20, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(20, 3, 378);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateBlankCredentials')
+data.setCell(21, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(21, 3, 149);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateFooterText')
+data.setCell(22, 2, 'com.excelRProjects.SwagLabs.TestCaseExecution')
+data.setCell(22, 3, 127);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.excelRProjects.SwagLabs.TestCaseExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialisation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateAllValidCredentials</span>
+                <span class="method-start">3180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateInvalidUserName</span>
+                <span class="method-start">16697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateInvalidPassword</span>
+                <span class="method-start">17369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateBlankCredentials</span>
+                <span class="method-start">17882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateValidLogin</span>
+                <span class="method-start">18034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAllProductsDisplay</span>
+                <span class="method-start">18587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateProductByNameFilterZtoA</span>
+                <span class="method-start">19130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateProductByNameFilterAtoZ</span>
+                <span class="method-start">23196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateProductFilterByPriceLowtoHigh</span>
+                <span class="method-start">27821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateProductFilterByPriceHightoLow</span>
+                <span class="method-start">30225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSocialMediaButtons</span>
+                <span class="method-start">32853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateInventoryPageProduct</span>
+                <span class="method-start">40300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateaddAllProductsToCart</span>
+                <span class="method-start">40678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateremoveAllItemsFromCart</span>
+                <span class="method-start">41571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddandRemoveProductsInInventory</span>
+                <span class="method-start">102510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateFooterText</span>
+                <span class="method-start">122895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResetAppStateFunction</span>
+                <span class="method-start">123027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCartPageCheckOutButton</span>
+                <span class="method-start">154330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCkeckoutPage1ContinueButtonAndAllItemsFunction</span>
+                <span class="method-start">175968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCkeckoutPage1ErrorMsgsText</span>
+                <span class="method-start">177811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutPage2FinishButton</span>
+                <span class="method-start">180226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutPage2CancelButton</span>
+                <span class="method-start">181407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutcompletePage</span>
+                <span class="method-start">205835 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
